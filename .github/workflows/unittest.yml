@@ -6,5 +6,6 @@ jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
-      - run: make
+      - uses: actions/checkout@v4
+      - run: make clean main
       - run: ./test.sh

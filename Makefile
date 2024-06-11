@@ -1,4 +1,4 @@
 main: main.c
 
 clean:
-	$(RM) main
+	-$(RM) main
